@@ -65,8 +65,8 @@ table {
 }
 
 .back {
-	background-image: url(images/ecsu.jpg);
-    	background-repeat: no-repeat;
+	background-image: url("ecsu.jpg");
+	background-repeat: no-repeat;
 }
 
 body {
