@@ -64,8 +64,9 @@ table {
   	text-shadow: 5px 5px 0 rgb(98, 165, 225);
 }
 
-#logo {
+header {
 	background-image: url("ecsu.jpg");
+	width: 100%;
 
 }
 
