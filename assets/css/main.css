@@ -31,10 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-   	background-image: url("images/ecsu.jpg");
-    	background-repeat: no-repeat;
-    	background-position: right top;
-    	background-attachment: fixed;
 }
 
 ol, ul {
@@ -56,18 +52,23 @@ table {
 }
 
 @font-face {
-    font-family: BitFont;
-    src: url("assets/fonts/8-BIT WONDER.TTF");
+    	font-family: BitFont;
+    	src: url("assets/fonts/8-BIT WONDER.TTF");
 }
 
 h1.head1 {
-  display: inline-block;
-  padding: 4px;
-  font-family: 'BitFont', sans-serif;
-  font-size: 30pt;
-  color: rgb(29, 35, 212);
-  text-align: center;
-  text-shadow: 5px 5px 0 rgb(98, 165, 225) ;
+  	display: inline-block;
+  	padding: 4px;
+  	font-family: 'BitFont', sans-serif;
+  	font-size: 30pt;
+  	color: rgb(29, 35, 212);
+  	text-align: center;
+  	text-shadow: 5px 5px 0 rgb(98, 165, 225);
+	background-image: url("images/ecsu.jpg");
+    	background-repeat: no-repeat;
+    	background-position: right top;
+    	background-attachment: fixed;
+}
 }
 
 body {
