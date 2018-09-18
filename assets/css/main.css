@@ -51,10 +51,11 @@ table {
 	border-spacing: 0;
 }
 
-.head1 {
+h1.head1 {
   display: inline-block;
   padding: 4px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: '8 BIT WONDER', sans-serif;
+  font-size: 30pt;
   color: rgb(29, 35, 212);
   text-align: center;
   text-shadow: 5px 5px 0 rgb(98, 165, 225) ;
