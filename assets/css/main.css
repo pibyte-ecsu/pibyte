@@ -2679,7 +2679,7 @@ input, select, textarea {
 	#banner {
 		background-image: url("../../images/ecsu.jpg");
 		background-position: center center;
-		background-size: cover;
+		background-size: auto;
 		height: 28em;
 		text-align: center;
 		position: relative;
