@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+   	background-image: url("pibyte/images/ecsu.jpg");
+    	background-repeat: no-repeat;
+    	background-position: right top;
+    	background-attachment: fixed;
 }
 
 ol, ul {
