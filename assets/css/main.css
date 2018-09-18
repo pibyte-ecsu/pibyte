@@ -51,7 +51,7 @@ table {
 	border-spacing: 0;
 }
 
-head1 {
+.head1 {
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -60,11 +60,11 @@ head1 {
   overflow: hidden;
   border: none;
   font: normal 70px/1 "VT323", Helvetica, sans-serif;
-  color: rgba(255,255,0,1);
+  color: rgb(29, 35, 212);
   text-align: center;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+  text-shadow: 5px 5px 0 rgb(98, 165, 225) ;
 }
 
 body {
