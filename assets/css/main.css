@@ -2678,9 +2678,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		/*background-image: url("../../images/ecsu.jpg");*/
+		/*background-image: url("../../images/ecsu.jpg"); Find a larger image */ 
 		background-position: center center;
 		background-size: auto;
+		background-repeat: no-repeat;
 		height: 28em;
 		text-align: center;
 		position: relative;
