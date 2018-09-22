@@ -2678,7 +2678,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/ecsu.jpg");
+		/*background-image: url("../../images/ecsu.jpg");*/
 		background-position: center center;
 		background-size: auto;
 		height: 28em;
