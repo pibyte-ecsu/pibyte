@@ -2592,7 +2592,6 @@ input, select, textarea {
 
 				#nav > ul > li:first-child {
 					margin-left: 0;
-					border: #37c0fb 3px solid;
 				}
 
 				#nav > ul > li:hover a {
@@ -2601,6 +2600,7 @@ input, select, textarea {
 
 				#nav > ul > li.current {
 					font-weight: 600;
+					border: #37c0fb 3px solid;
 				}
 
 				#nav > ul > li.current:before {
