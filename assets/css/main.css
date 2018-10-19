@@ -3357,3 +3357,6 @@ input, select, textarea {
 				text-align: left;
 			}
 	}
+	p#banner_intro{
+		color: white;
+	}
