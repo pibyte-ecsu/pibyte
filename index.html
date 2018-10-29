@@ -10,7 +10,10 @@
 		<title>Pi-Byte Club of Elizabeth City State University</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<style>
+			.mySlides {display:none;}
+		</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -40,8 +43,7 @@
 						</ul>
 					</nav>
 				</div>
-				<br><br>
-
+				<br><br><br>
 			<!-- Banner -->
 				<section id="banner">
 					<header>
@@ -49,9 +51,9 @@
 						<p></p>
 						<p id="banner_intro">Hello visitor,</p>
 						<p id="banner_intro">I would like to extend a warm welcome as the president of the Pi Byte Club of Elizabeth City State University's 
-						This is the homepage, please feel free to explore the contents of the website and webpages within. If you have 
-						any questions, please contact the members of the Pi Byte Club through their contact information and they will get 
-						back to you at their earliest convenience.</p>
+						This is the homepage, please feel free to explore the contents of the website and webpages within. Check out our Alumni page, to see
+						the students that helped make the club into the excellent group it is today! If you have any questions, please contact the members 
+						of the Pi Byte Club through their contact information and they will get back to you at their earliest convenience.</p>
 						<p id="banner_intro">Sincerely,</p>
 						<p id="banner_intro">President, Thomas Hilton Johnson III</p>
 					</header>
@@ -60,19 +62,26 @@
 			<!-- Posts -->
 			<section class="wrapper style1">
 					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Events</h3>
-										<p>View events that are planned by the Pi Byte Club of Elizabeth City State University.</p>
-									</div>
-								</div>	
-							</section>
-						</div>
+						<div>
+							<table class="events">
+								<tr>
+								<td><img src="images/images.jpeg" alt="" id="event-imgs"></td>
+								<td><img src="images/images.jpeg" alt="" id="event-imgs"></td>
+								<td><img src="images/images.jpeg" alt="" id="event-imgs"></td>
+							</tr>
+							<tr id="event-titles">
+								<td><h3>Events</h3></td>
+								<td><h3>Events</h3></td>
+								<td><h3>Events</h3></td>
+							</tr>
+							<tr align="center">
+								<td><p>View events that are planned by the Pi Byte Club of Elizabeth City State University.</p></td>
+								<td><p>View events that are planned by the Pi Byte Club of Elizabeth City State University.</p></td>
+								<td><p>View events that are planned by the Pi Byte Club of Elizabeth City State University.</p></td>
+							</tr>
+						</table>
 					</div>
-				</section>
+			</section>
 
 			<!-- Highlights -->
 				<section class="wrapper style1">
@@ -80,39 +89,22 @@
 						<div class="row gtr-200">
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
-									<a href="about.html#cabinet"><i class="icon major fa-paper-plane"></i></a>
-									<h3>Cabinet</h3>
-									<p>President: Thomas Hilton Johnson III</p>
-									<p>Vice President: Disaiah Bennett</p>
-									<p>Information on the current cabinet members and the current advisors of the Pi-Byte Club of Elizabeth City State University.</p>
+										<iframe class="icon" src="https://calendar.google.com/calendar/embed?src=pibyte1ecsu%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="300" frameborder="0" scrolling="yes"></iframe>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<a href="alumni.html"><i class="icon major fa-pencil"></i></a>
-									<h3>Mathematics and Computer Science Department Alumni</h3>
-									<p>Look at information regarding alumni of the Mathematics and Computer Science Department of Elizabeth City State University.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-								<a href="about.html"><i class="icon major fa-wrench"></i></a>
-									<h3>About the Pi Byte Club</h3>
-									<p>For those who are interested in learning about the Pi Byte Club of Elizabeth City State University's Mathematics and Computer Science Department.</p>
-								</div>
+									<div class="w3-content w3-section" style="max-width:500px; margin-top: 7%">
+										<img class="mySlides" src="images/Thomas_cropped.jpg" style="width:100%">
+										<img class="mySlides" src="images/170822_students_043.JPEG" style="width:100%">
+										<img class="mySlides" src="images/170822_students_048.jpg" style="width:100%">
+										<img class="mySlides" src="images/170822_students_075.jpg" style="width:100%">
+										<h4 id="studentinfo_name_maj"></h4>
+										<p id="studentinfo_news"></p>
+									</div>
 							</section>
 						</div>
 					</div>
 				</section>
-
-			<!-- Gigantic Heading -->
-				<!--section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>Announcements:</h2>
-						</header>
-					</div>
-				</section-->
 
 			<!-- Footer -->
 				<div id="footer">
@@ -125,7 +117,7 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-							<li><a href="https://twitter.com/pibyte_ecsu" class="icon fa-twitter"><span class="label">Twitter</span></a></li> <!--The Pi Byte Club Twitter: https://twitter.com/pibyte_ecsu-->
+							<li><a href="https://twitter.com/pibyte_ecsu" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/pi.byte.52" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://github.com/pibyte-ecsu" class="icon fa-github"><span class="label">GitHub</span></a></li>
 							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -149,6 +141,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				carousel();
+			</script>
 	</body>
 </html>

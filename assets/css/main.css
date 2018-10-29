@@ -2105,7 +2105,7 @@ input, select, textarea {
 			.image.left img {
 				display: block;
 				width: 100%;
-			}
+			}s
 
 		.image.fit {
 			display: block;
@@ -2560,7 +2560,7 @@ input, select, textarea {
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 0;
-
+		font-weight: bold;
 	}
 
 		#nav:after {
@@ -2678,13 +2678,15 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		/*background-image: url("../../images/ecsu.jpg"); Find a larger image */ 
+		/*background-image: url("../../images/183f535d-9c2d-4849-869f-3af276588235.jpg");*/ /*Find a larger image */ 
+		background-image: url("../../images/11-EDUCATIONAL-ECSU-RIDLEY-STUDENT-CENTER.jpg"); /*Find a larger image */ 
 		background-position: center center;
 		background-size: auto;
-		background-repeat: no-repeat;
-		height: 28em;
+		background-repeat: unset;
+		height: 26em;
 		text-align: center;
 		position: relative;
+		width: 100%;
 	}
 
 		#banner header {
@@ -2692,8 +2694,9 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			width: 100%;
+			height: 350px;
 			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
+			background: rgba(27, 27, 27, 0.85);
 			color: #fff;
 			padding: 1.5em 0;
 		}
@@ -3359,4 +3362,21 @@ input, select, textarea {
 	}
 	p#banner_intro{
 		color: white;
+	}
+
+	.events{
+		width: 100%;
+		border: 100% solid black;
+		text-align: center;
+	}
+
+	#event-titles{
+		text-align: center;
+	}
+
+	#event-imgs{
+		border-radius: 5px;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
